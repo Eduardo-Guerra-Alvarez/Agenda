@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="10" failures="3" errors="0" time="5.47">
+  <testsuite name="undefined" errors="0" failures="3" skipped="0" timestamp="2022-10-05T17:49:07" time="4.847" tests="10">
+    <testcase classname=" should display initial UI" name=" should display initial UI" time="0.239">
+    </testcase>
+    <testcase classname=" form validation - invalid" name=" form validation - invalid" time="0.177">
+    </testcase>
+    <testcase classname=" form validation - valid add btn" name=" form validation - valid add btn" time="0.193">
+    </testcase>
+    <testcase classname=" form validation - invalid submit" name=" form validation - invalid submit" time="0.257">
+    </testcase>
+    <testcase classname=" form validation - valid submit" name=" form validation - valid submit" time="0.231">
+    </testcase>
+    <testcase classname=" toggle view check" name=" toggle view check" time="0.08">
+    </testcase>
+    <testcase classname=" check form inputs" name=" check form inputs" time="0.309">
+    </testcase>
+    <testcase classname=" check view agenda" name=" check view agenda" time="0.057">
+      <failure>TypeError: Cannot read property &apos;querySelector&apos; of undefined
+    at getText (/home/labuser/Desktop/Project/wings-reactdemo-agendamaker/ReactJS/src/App.test.js:139:14)
+    at Object.&lt;anonymous&gt; (/home/labuser/Desktop/Project/wings-reactdemo-agendamaker/ReactJS/src/App.test.js:153:12)
+    at _callCircusTest (/home/labuser/Desktop/Project/wings-reactdemo-agendamaker/ReactJS/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/labuser/Desktop/Project/wings-reactdemo-agendamaker/ReactJS/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/labuser/Desktop/Project/wings-reactdemo-agendamaker/ReactJS/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/labuser/Desktop/Project/wings-reactdemo-agendamaker/ReactJS/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/labuser/Desktop/Project/wings-reactdemo-agendamaker/ReactJS/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/labuser/Desktop/Project/wings-reactdemo-agendamaker/ReactJS/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+    at runTestInternal (/home/labuser/Desktop/Project/wings-reactdemo-agendamaker/ReactJS/node_modules/jest-runner/build/runTest.js:380:16)
+    at runTest (/home/labuser/Desktop/Project/wings-reactdemo-agendamaker/ReactJS/node_modules/jest-runner/build/runTest.js:472:34)</failure>
+    </testcase>
+    <testcase classname=" add and view the agenda" name=" add and view the agenda" time="0.35">
+      <failure>TypeError: Cannot read property &apos;querySelector&apos; of undefined
+    at getText (/home/labuser/Desktop/Project/wings-reactdemo-agendamaker/ReactJS/src/App.test.js:139:14)
+    at Object.&lt;anonymous&gt; (/home/labuser/Desktop/Project/wings-reactdemo-agendamaker/ReactJS/src/App.test.js:180:10)
+    at _callCircusTest (/home/labuser/Desktop/Project/wings-reactdemo-agendamaker/ReactJS/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/labuser/Desktop/Project/wings-reactdemo-agendamaker/ReactJS/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/labuser/Desktop/Project/wings-reactdemo-agendamaker/ReactJS/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/labuser/Desktop/Project/wings-reactdemo-agendamaker/ReactJS/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/labuser/Desktop/Project/wings-reactdemo-agendamaker/ReactJS/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/labuser/Desktop/Project/wings-reactdemo-agendamaker/ReactJS/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+    at runTestInternal (/home/labuser/Desktop/Project/wings-reactdemo-agendamaker/ReactJS/node_modules/jest-runner/build/runTest.js:380:16)
+    at runTest (/home/labuser/Desktop/Project/wings-reactdemo-agendamaker/ReactJS/node_modules/jest-runner/build/runTest.js:472:34)</failure>
+    </testcase>
+    <testcase classname=" add and view the agenda - 2" name=" add and view the agenda - 2" time="0.752">
+      <failure>TypeError: Cannot read property &apos;querySelectorAll&apos; of undefined
+    at Object.&lt;anonymous&gt; (/home/labuser/Desktop/Project/wings-reactdemo-agendamaker/ReactJS/src/App.test.js:207:22)
+    at _callCircusTest (/home/labuser/Desktop/Project/wings-reactdemo-agendamaker/ReactJS/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/labuser/Desktop/Project/wings-reactdemo-agendamaker/ReactJS/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/labuser/Desktop/Project/wings-reactdemo-agendamaker/ReactJS/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/labuser/Desktop/Project/wings-reactdemo-agendamaker/ReactJS/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/labuser/Desktop/Project/wings-reactdemo-agendamaker/ReactJS/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/labuser/Desktop/Project/wings-reactdemo-agendamaker/ReactJS/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+    at runTestInternal (/home/labuser/Desktop/Project/wings-reactdemo-agendamaker/ReactJS/node_modules/jest-runner/build/runTest.js:380:16)
+    at runTest (/home/labuser/Desktop/Project/wings-reactdemo-agendamaker/ReactJS/node_modules/jest-runner/build/runTest.js:472:34)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
